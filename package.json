@@ -1,0 +1,33 @@
+{
+  "name": "hapi-tutorial",
+  "version": "1.0.0",
+  "description": "基于 hapi 的 Node.js 小程序后端开发实践",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "node"
+  ],
+  "author": "xiaoan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "env2": "^2.2.2",
+    "hapi": "^16.7.0",
+    "hapi-auth-jwt2": "^7.4.1",
+    "hapi-swagger": "^7.10.0",
+    "inert": "^4.2.1",
+    "joi": "^13.7.0",
+    "jsonwebtoken": "^8.4.0",
+    "mysql2": "^1.6.4",
+    "package": "^1.0.1",
+    "sequelize": "^4.41.2",
+    "vision": "^4.1.1",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.4.0"
+  }
+}
